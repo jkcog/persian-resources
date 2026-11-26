@@ -39,7 +39,7 @@ header .fa{font-family:var(--fa);font-weight:400}
 .project li:last-child{margin-bottom:0}
 
 .shot{display:block;width:100%;border-bottom:1px solid var(--line)}
-.shot img{width:100%;display:block}
+.shot img{width:100%;height:auto;display:block}
 
 /* every CTA ends in an arrow: all of them genuinely navigate off this page, so the
    arrow is a consistent "leaves this site" signal rather than decoration */
