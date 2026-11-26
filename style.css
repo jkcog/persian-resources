@@ -47,9 +47,21 @@ header .fa{font-family:var(--fa);font-weight:400}
 .source{margin-left:14px;font:14px/1 var(--sans);color:var(--dim);text-decoration:none}
 .source:hover{color:var(--accent-ink)}
 
+.under-hood{margin-top:44px}
+.under-hood h3{font:600 13px/1 var(--sans);text-transform:uppercase;letter-spacing:.08em;
+  color:var(--dim);margin-bottom:16px}
+.lib{background:var(--card2);border:1px solid var(--line-soft);border-radius:var(--radius);
+  padding:20px 24px}
+.lib h2{font:600 18px/1.3 var(--display);margin-bottom:10px}
+.lib p{font-size:15.5px;color:#5a5244}
+.lib code{background:var(--card);border:1px solid var(--line-soft);padding:1px 6px;
+  border-radius:5px;font-size:.88em;font-family:var(--sans)}
+.lib .source{margin-left:0;margin-top:12px;display:inline-block;font-size:14.5px}
+
 footer{color:var(--dim);font:14px/1.5 var(--sans);text-align:center;margin-top:48px}
 
 @media (max-width:560px){
   header h1{font-size:31px}
   .project-body{padding:22px 20px 24px}
+  .lib{padding:18px 20px}
 }
