@@ -1,6 +1,6 @@
 :root{
   --paper:#f6f1e7; --card:#fffdf8; --card2:#f4eee0; --line:#e5dcc6; --line-soft:#ede5d2;
-  --ink:#2c2620; --dim:#8a8070;
+  --ink:#2c2620; --dim:#6b6354;
   --accent:#2b8088; --accent-ink:#1f5b61; --good:#4f7a5c;
   --fa:"Noto Naskh Arabic","Vazirmatn","Noto Sans Arabic",Tahoma,serif;
   --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
@@ -28,6 +28,8 @@ header .fa{font-family:var(--fa);font-weight:400}
 .project-body{padding:26px 28px 28px}
 .project h2{font:600 23px/1.3 var(--display);display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
 .project h2 .fa{font-family:var(--fa);font-weight:400;font-size:.85em;color:var(--dim)}
+/* pill shape + uppercase is deliberate here: it's a real taxonomy label (what kind of
+   thing this is, web app vs. extension), not a hype badge, so it's kept to one per card */
 .kind{display:inline-block;font:600 11px/1 var(--sans);text-transform:uppercase;letter-spacing:.06em;
   color:var(--dim);background:var(--card2);border:1px solid var(--line-soft);
   border-radius:999px;padding:5px 10px;margin-top:10px}
@@ -39,6 +41,8 @@ header .fa{font-family:var(--fa);font-weight:400}
 .shot{display:block;width:100%;border-bottom:1px solid var(--line)}
 .shot img{width:100%;display:block}
 
+/* every CTA ends in an arrow: all of them genuinely navigate off this page, so the
+   arrow is a consistent "leaves this site" signal rather than decoration */
 .cta{display:inline-flex;align-items:center;gap:8px;font:600 15px/1 var(--sans);color:#fdfbf6;
   background:var(--accent);border:1px solid var(--accent);border-radius:10px;padding:11px 20px;
   text-decoration:none;margin-top:18px;box-shadow:var(--shadow);
